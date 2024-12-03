@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-background-material-for-singing-competition-poster-picture-image_862565.jpg);
+    background-size: cover;
+    text-align: center;
+}
+h2{
+    font-size: 70px;
+}
+
+.content.poll-vote {
+    text-align: center;
+}
+
+p{
+    font-size: 45px;
+}
+
+#poll_answer{
+    font-size: 30px;
+}
+
+.poll-vote form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.poll-vote form label {
+  padding-bottom: 20px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.poll-vote form input[type="radio"] {
+    transform: scale(1.5);
+    vertical-align: middle;
+}
+.poll-vote form input[type="submit"], .poll-vote form a {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #38b673;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 150px;
+    margin-top: 15px;
+}
+.poll-vote form input[type="submit"]:hover, .poll-vote form a:hover {
+    background-color: #32a367;
+}
+.poll-vote form a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #37afb7;
+  margin-left: 5px;
+}
+.poll-vote form a:hover {
+  background-color: #319ca3;
+}

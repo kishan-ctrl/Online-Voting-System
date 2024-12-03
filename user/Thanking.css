@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-karaoke-background_23-2150970022.jpg);
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #b206f7;
+}
+
+p {
+    color: #d00af39a;
+}
+
+.logout-btn {
+    background-color: #002b7aba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.logout-btn:hover {
+    background-color: #2980b9;
+}

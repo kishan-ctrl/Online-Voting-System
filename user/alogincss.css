@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: aquamarine;
+    display: grid;
+    position: relative;
+    left: -15px; 
+    top: 225px; 
+    width: 400px;
+    margin: 20px auto;    
+    padding: 20px; 
+    
+    
+    
+    
+
+}
+.box{
+    padding: 32px;
+    
+    border-radius: 5px;
+   
+}
+.label{
+   border-radius: 5px;
+
+}
